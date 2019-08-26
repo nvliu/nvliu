@@ -1,0 +1,3 @@
+[submodule "themes/invliu-theme-next"]
+	path = themes/invliu-theme-next
+	url = git@kjxbyz.github.com:nvliufans/invliu-theme-next.git
