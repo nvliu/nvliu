@@ -4,10 +4,10 @@
 
 # Site
 title: 爱女流
-subtitle:
-description:
-keywords:
-author: Xiao Bai
+subtitle: 大周女皇陛下
+description: 石悦（shí yuè），网名女流，1988年10月3日出生于内蒙古自治区赤峰市宁城县天义镇，中国内地游戏解说、播客、自媒体人。
+keywords: 女流, 女流66, 石悦
+author: Invliu Tech Team
 language: zh-CN
 timezone:
 
@@ -57,6 +57,13 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+
+search:
+  path: search.xml
+  field: all
+  format: html
+  limit: 10000
+  content: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
