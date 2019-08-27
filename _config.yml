@@ -86,5 +86,8 @@ theme: invliu-theme-next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@kjxbyz.github.com:nvliufans/invliu-blog.git
-  branch: gh-pages-dev
+  name: kjxbyz
+  email: kjxbyz@163.com
+  repo:
+    github: git@kjxbyz.github.com:nvliufans/invliu-blog.git,gh-pages-dev
+    gitee: git@kjxbyz.gitee.com:nvliufans/invliu-blog.git,gh-pages-dev
