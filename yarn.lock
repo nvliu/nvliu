@@ -1752,6 +1752,11 @@ hexo-server@^0.3.3:
     opn "^5.3.0"
     serve-static "^1.13.2"
 
+hexo-tag-bili@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-tag-bili/-/hexo-tag-bili-1.0.0.tgz#4ed1bc9dac58d49da501a8d20f655960fc5ad7ab"
+  integrity sha512-Of0fq9y4kz47dpz+15BjJ1qZhz41NiEdvqbRsF5rxs45tjDNthwJHnMsntpT76QC7BvMDa+FXQ0eMucPjwqX/w==
+
 hexo-util@^0.6.0, hexo-util@^0.6.2, hexo-util@^0.6.3:
   version "0.6.3"
   resolved "https://registry.yarnpkg.com/hexo-util/-/hexo-util-0.6.3.tgz#16a2ade457bef955af0dfd22a3fe6f0a49a9137c"
