@@ -1,0 +1,32 @@
+language: node_js
+sudo: required
+node_js:
+  - 8
+cache:
+  directories:
+    - node_modules
+
+branches:
+  only:
+    - master
+
+before_install:
+  - yarn global add hexo-cli
+
+install:
+  - yarn install
+
+script:
+  - hexo clean && hexo g && gulp
+  - cd ./public && touch CNAME && echo 'invliu.com' > CNAME && cd ..
+
+deploy:
+  provider: pages
+  email: kjxbyz@163.com
+  name: kjxbyz
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
+  local_dir: public
