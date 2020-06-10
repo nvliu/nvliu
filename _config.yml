@@ -80,4 +80,5 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: invliu-theme-next
+#theme: invliu-theme-next
+theme: next
