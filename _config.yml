@@ -60,6 +60,10 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+i18n:
+  type: [page, post]
+  generator: [index, archive, category, tag]
+
 search:
   path: search.xml
   field: all
